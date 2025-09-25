@@ -16,7 +16,7 @@ app.use("/blog", blogRoutes);
 
 
 
-const PORT = 4000;
+const PORT = "https://blogbuddy-frontentd.onrender.com";
 app.listen(PORT, () => {
   connectDB(); 
   console.log(`Server is running on port ${PORT}`);
