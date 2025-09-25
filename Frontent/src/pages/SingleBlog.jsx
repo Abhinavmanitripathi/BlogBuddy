@@ -23,7 +23,7 @@ const SingleBlog = () => {
         <p className="text-lg font-bold">Author:{blog.author.name}</p>
         <img
           className="w-8 h-8 rounded-full"
-          src={`http://localhost:4000/images/${blog.author.image}`}
+          src={`https://blogbuddy-backkend.onrender.com/image/${blog.author.image}`}
           alt=""
         />
       </div>
