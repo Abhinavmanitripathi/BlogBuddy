@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   res.send("Backend is running!");
 });
 
-const PORT = 4000;
+const PORT = "https://blogbuddy-frontentd.onrender.com";
 app.listen(PORT, () => {
   connectDB(); 
   console.log(`Server is running on port ${PORT}`);

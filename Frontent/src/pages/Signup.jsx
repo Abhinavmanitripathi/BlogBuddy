@@ -28,7 +28,7 @@ const Signup = () => {
       data.append("image", formData.image);
       setLoading(true);
       const res = await axios.post(
-        "http://localhost:4000/user/register",
+        "https://blogbuddy-backkend.onrender.com",
         data,
         {
           headers: {
