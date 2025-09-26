@@ -14,7 +14,9 @@ app.use("/images", express.static("uploads"));
 app.use("/user", userRoutes);
 app.use("/blog", blogRoutes);
 
-
+app.get("/", (req, res) => {
+  res.send("Backend is running!");
+});
 
 const PORT = 4000;
 app.listen(PORT, () => {
